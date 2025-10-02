@@ -1,6 +1,4 @@
-x = int(input("Enter a number: "))
-
-for i in range(1 , x + 1):
-
-    if x % i == 0:
+number = int(input("Enter a number: "))
+for i in range(1 , number + 1):
+    if number % i == 0:
         print(i , end=" ")
